@@ -5,14 +5,14 @@ const HeaderNav = () => {
             <Navbar fluid rounded className="bg-[#182133] nav-container">
                 <Navbar.Brand>
                     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white ">
-                       <a href="https://inspireditbd.com/">
-                       INSPIRED IT
-                       </a>
+                        <a href="https://inspireditbd.com/">
+                            INSPIRED IT
+                        </a>
                     </span>
                 </Navbar.Brand>
                 <div className="flex md:order-2 ">
-                    <a style={{ padding: '10px', borderRadius: '5px' }} target="_blank" href="#" className="mobile-off-button gradient-border" rel="noreferrer">
-                        যোগাযোগ করুন 
+                    <a style={{ padding: '10px', borderRadius: '5px' }} target="_blank" href="tel:01738240668" className="mobile-off-button gradient-border" rel="noreferrer">
+                        যোগাযোগ করুন
                     </a>
                     <Navbar.Toggle />
                 </div>

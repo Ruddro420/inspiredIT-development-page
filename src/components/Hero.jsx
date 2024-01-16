@@ -8,7 +8,7 @@ const Hero = () => {
                     <h1 className="text-white">Creative<span> Frontend</span> and <span>WordPress </span> Development.</h1>
                     <p>আপনার ভাবনার, জানার, শিখার জগতকে আরও বড় করতেই তো রয়েছি আমরা। আপনার দক্ষতাকে আমরা করবো গতিশীল। আর তা আমাদের আপ-টু-ডেটেড কারিকুলামের মাধ্যমে যা আপনাদের জন্য সাজিয়েছি আমরা সম্পূর্ণ নতুনভাবে।</p>
                     <div>
-                        <a style={{ padding: '20px', borderRadius: '5px', fontSize: '20px', color: 'white', cursor: 'pointer' }} target="_blank" href="#" className="course-button gradient-border" rel="noreferrer">
+                        <a style={{ padding: '20px', borderRadius: '5px', fontSize: '20px', color: 'white', cursor: 'pointer' }} href="#course-module" className="course-button gradient-border" rel="noreferrer">
                             কোর্স মডিউল দেখুন
                         </a>
                     </div>

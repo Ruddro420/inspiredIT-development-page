@@ -7,7 +7,7 @@ const OrderNow = () => {
                 <h2 className="mb-4 text-2xl tracking-tight font-extrabold text-white">কোর্স ফি : <span>৮০০০ টাকা</span></h2>
                     <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
                         <div className="mbl-enroll-btn">
-                            <a style={{ padding: '10px', borderRadius: '5px', fontSize: '20px', color: 'white', cursor: 'pointer' }} target="_blank" href="#" className="course-enroll-button gradient-border" rel="noreferrer">
+                            <a style={{ padding: '10px', borderRadius: '5px', fontSize: '20px', color: 'white', cursor: 'pointer' }} target="_blank" href="tel:01738240668" className="course-enroll-button gradient-border" rel="noreferrer">
                                 কোর্সে জয়েন করুন
                             </a>
                         </div>
