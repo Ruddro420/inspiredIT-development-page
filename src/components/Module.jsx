@@ -3,7 +3,7 @@ import { Timeline } from "flowbite-react";
 const Module = () => {
     return (
         <div>
-            <section className="bg-section">
+            <section id="course-module" className="bg-section">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                     <div className=" mb-8 lg:mb-16 text-center">
                         <div className="module-header-img">
@@ -12,8 +12,8 @@ const Module = () => {
                         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">কোর্সে যে যে <span>মডিউল</span> থাকছে</h2>
                         <p className="text-gray-500 sm:text-xl">12 টি মডিউলে সাজানো হয়েছে পুরো কোর্সটি</p>
                     </div>
-                    <div className="grid grid-cols-2 gap-4 module-overflow">
-                        <div className="col-span-1 ml-5 bg-block-module">
+                    <div className="md:grid md:grid-cols-1 lg:grid-cols-2 md:gap-8 md:space-y-0 module-overflow">
+                        <div className="ml-lg-5 bg-block-module ">
                             <Timeline>
                                 <Timeline.Item>
                                     <Timeline.Point />
@@ -23,7 +23,7 @@ const Module = () => {
                                         <Timeline.Body>
                                             আমরা এই সপ্তাহে দুইটি মডিউল শেষ করবো । Web Development এর বিষয়গুলো নিয়ে আলোচনা করা হবে  এবং HTML এই বিভিন্ন টপিকস  সম্পর্কে জানবো এই সপ্তাহে । এই সপ্তাহে আমরা দুইটি প্রজেক্ট বানানো দেখানো হবে এবং দুইটি এসাইনমেন্ট দেয়া হবে। 
                                             <div className="course-tag">
-                                                <b>HTML</b> <b>GIT / GITHUB</b><b>DEVELOPMENT TOOLS</b><b>DISCUSSION WEB DEVELOPMENT</b>
+                                                <div>HTML</div> <div>GIT / GITHUB</div><div>DEVELOPMENT TOOLS</div><div>DISCUSSION WEB DEVELOPMENT</div>
                                             </div>
                                         </Timeline.Body>
                                     </Timeline.Content>
@@ -37,7 +37,7 @@ const Module = () => {
                                             All of the pages and components are first designed in Figma and we keep a parity between the two versions
                                             even as we update the project.
                                             <div className="course-tag">
-                                                <b>HTML</b> <b>GIT / GITHUB</b><b>DEVELOPMENT TOOLS</b><b>DISCUSSION WEB DEVELOPMENT</b>
+                                                <div>HTML</div> <div>GIT / GITHUB</div><div>DEVELOPMENT TOOLS</div><div>DISCUSSION WEB DEVELOPMENT</div>
                                             </div>
                                         </Timeline.Body>
                                     </Timeline.Content>
@@ -50,7 +50,7 @@ const Module = () => {
                                         <Timeline.Body>
                                             Get started with dozens of web components and interactive elements built on top of Tailwind CSS.
                                             <div className="course-tag">
-                                                <b>HTML</b> <b>GIT / GITHUB</b><b>DEVELOPMENT TOOLS</b><b>DISCUSSION WEB DEVELOPMENT</b>
+                                                <div>HTML</div> <div>GIT / GITHUB</div><div>DEVELOPMENT TOOLS</div><div>DISCUSSION WEB DEVELOPMENT</div>
                                             </div>
                                         </Timeline.Body>
                                     </Timeline.Content>
@@ -64,7 +64,7 @@ const Module = () => {
                                             Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order
                                             E-commerce & Marketing pages.
                                             <div className="course-tag">
-                                                <b>HTML</b> <b>GIT / GITHUB</b><b>DEVELOPMENT TOOLS</b><b>DISCUSSION WEB DEVELOPMENT</b>
+                                                <div>HTML</div> <div>GIT / GITHUB</div><div>DEVELOPMENT TOOLS</div><div>DISCUSSION WEB DEVELOPMENT</div>
                                             </div>
                                         </Timeline.Body>
                                     </Timeline.Content>
@@ -78,7 +78,7 @@ const Module = () => {
                                             Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order
                                             E-commerce & Marketing pages.
                                             <div className="course-tag">
-                                                <b>HTML</b> <b>GIT / GITHUB</b><b>DEVELOPMENT TOOLS</b><b>DISCUSSION WEB DEVELOPMENT</b>
+                                                <div>HTML</div> <div>GIT / GITHUB</div><div>DEVELOPMENT TOOLS</div><div>DISCUSSION WEB DEVELOPMENT</div>
                                             </div>
                                             <Timeline.Point />
                                         </Timeline.Body>
@@ -86,7 +86,7 @@ const Module = () => {
                                 </Timeline.Item>
                             </Timeline>
                         </div>
-                        <div className="col-span-1 bg-block-module">
+                        <div className="bg-block-module mt-3">
                             <Timeline>
                                 <Timeline.Item>
                                     <Timeline.Point />
@@ -97,7 +97,7 @@ const Module = () => {
                                             All of the pages and components are first designed in Figma and we keep a parity between the two versions
                                             even as we update the project.
                                             <div className="course-tag">
-                                                <b>HTML</b> <b>GIT / GITHUB</b><b>DEVELOPMENT TOOLS</b><b>DISCUSSION WEB DEVELOPMENT</b>
+                                                <div>HTML</div> <div>GIT / GITHUB</div><div>DEVELOPMENT TOOLS</div><div>DISCUSSION WEB DEVELOPMENT</div>
                                             </div>
                                         </Timeline.Body>
                                     </Timeline.Content>
@@ -111,7 +111,7 @@ const Module = () => {
                                             All of the pages and components are first designed in Figma and we keep a parity between the two versions
                                             even as we update the project.
                                             <div className="course-tag">
-                                                <b>HTML</b> <b>GIT / GITHUB</b><b>DEVELOPMENT TOOLS</b><b>DISCUSSION WEB DEVELOPMENT</b>
+                                                <div>HTML</div> <div>GIT / GITHUB</div><div>DEVELOPMENT TOOLS</div><div>DISCUSSION WEB DEVELOPMENT</div>
                                             </div>
                                         </Timeline.Body>
                                     </Timeline.Content>
@@ -125,7 +125,7 @@ const Module = () => {
                                             All of the pages and components are first designed in Figma and we keep a parity between the two versions
                                             even as we update the project.
                                             <div className="course-tag">
-                                                <b>HTML</b> <b>GIT / GITHUB</b><b>DEVELOPMENT TOOLS</b><b>DISCUSSION WEB DEVELOPMENT</b>
+                                                <div>HTML</div> <div>GIT / GITHUB</div><div>DEVELOPMENT TOOLS</div><div>DISCUSSION WEB DEVELOPMENT</div>
                                             </div>
                                         </Timeline.Body>
                                     </Timeline.Content>
@@ -139,7 +139,7 @@ const Module = () => {
                                             All of the pages and components are first designed in Figma and we keep a parity between the two versions
                                             even as we update the project.
                                             <div className="course-tag">
-                                                <b>HTML</b> <b>GIT / GITHUB</b><b>DEVELOPMENT TOOLS</b><b>DISCUSSION WEB DEVELOPMENT</b>
+                                                <div>HTML</div> <div>GIT / GITHUB</div><div>DEVELOPMENT TOOLS</div><div>DISCUSSION WEB DEVELOPMENT</div>
                                             </div>
                                         </Timeline.Body>
                                     </Timeline.Content>
@@ -152,7 +152,7 @@ const Module = () => {
                                         <Timeline.Body>
                                         আমরা এই সপ্তাহে দুইটি মডিউল শেষ করবো । Web Development এর বিষয়গুলো নিয়ে আলোচনা করা হবে  এবং HTML এই বিভিন্ন টপিকস  সম্পর্কে জানবো এই সপ্তাহে । এই সপ্তাহে আমরা দুইটি প্রজেক্ট বানানো দেখানো হবে এবং দুইটি এসাইনমেন্ট দেয়া হবে। 
                                             <div className="course-tag">
-                                                <b>HTML</b> <b>GIT / GITHUB</b><b>DEVELOPMENT TOOLS</b><b>DISCUSSION WEB DEVELOPMENT</b>
+                                                <div>HTML</div> <div>GIT / GITHUB</div><div>DEVELOPMENT TOOLS</div><div>DISCUSSION WEB DEVELOPMENT</div>
                                             </div>
                                             <Timeline.Point />
                                         </Timeline.Body>

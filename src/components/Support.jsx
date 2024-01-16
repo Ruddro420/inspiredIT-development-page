@@ -1,7 +1,7 @@
 
 const Support = () => {
     return (
-        <section className="bg-section">
+        <section className="bg-section-support">
             <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                 <div className="space-y-8 md:grid md:grid-cols-1 lg:grid-cols-2 md:gap-8 md:space-y-0">
                     <div className="">

@@ -1,7 +1,7 @@
 
 const Hero = () => {
     return (
-        <div className="hero-container">
+        <div id="hero-section" className="hero-container">
             <div className="inner-hero">
                 <div className="inner-text">
                     <p>MASTER THE ART OF FRONTEND & WORDPRESS DEVELOPMENT</p>
