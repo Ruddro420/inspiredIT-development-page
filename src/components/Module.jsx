@@ -10,7 +10,7 @@ const Module = () => {
                             <img src="/img/section/module.svg" />
                         </div>
                         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">কোর্সে যে যে <span>মডিউল</span> থাকছে</h2>
-                        <p className="text-white sm:text-xl">12 টি মডিউলে সাজানো হয়েছে পুরো কোর্সটি</p>
+                        <p className="text-gray-500 sm:text-xl">12 টি মডিউলে সাজানো হয়েছে পুরো কোর্সটি</p>
                     </div>
                     <div className="grid grid-cols-2 gap-4 module-overflow">
                         <div className="col-span-1 ml-5 bg-block-module">

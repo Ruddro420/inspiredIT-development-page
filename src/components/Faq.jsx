@@ -10,7 +10,7 @@ const Faq = () => {
                             <img src="/img/section/faq.svg" />
                         </div>
                         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">সচরাচর জানতে চাওয়া <span>প্রশ্নের উত্তর</span></h2>
-                        <p className="text-white sm:text-xl">আপনাদের কমন কিছু প্রশ্নের উত্তর আমরা এখানে লিস্ট করে দিয়েছি।</p>
+                        <p className="text-gray-500 sm:text-xl">আপনাদের কমন কিছু প্রশ্নের উত্তর আমরা এখানে লিস্ট করে দিয়েছি।</p>
                     </div>
                     <div className="space-y-8 md:grid md:grid-cols-1 lg:grid-cols-2 md:gap-8 md:space-y-0">
                         <div className="">

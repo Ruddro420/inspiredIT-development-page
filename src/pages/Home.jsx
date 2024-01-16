@@ -5,6 +5,8 @@ import Hero from "../components/Hero";
 import Language from "../components/Language";
 import Mentor from "../components/Mentor";
 import Module from "../components/Module";
+import Project from "../components/Project";
+import Support from "../components/Support";
 
 const Home = () => {
     return (
@@ -14,6 +16,8 @@ const Home = () => {
             <Features />
             <Module />
             <Language />
+            <Project/>
+            <Support />
             <Faq />
             <Mentor />
         </div>

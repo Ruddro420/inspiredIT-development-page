@@ -10,7 +10,7 @@ const Language = () => {
                             <img src="/img/section/tech.svg" />
                         </div>
                         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">কোর্সে যা যা <span>টেকনোলজী</span> শিখানো হবে</h2>
-                        <p className="text-white sm:text-xl">এই কোর্সের ল্যাংগুয়েজ</p>
+                        <p className="text-gray-500 sm:text-xl">এই কোর্সের ল্যাংগুয়েজ</p>
                     </div>
                     <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-8 md:space-y-0">
                         <div className="language-block">

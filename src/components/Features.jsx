@@ -9,7 +9,7 @@ const Features = () => {
                             <img src="/img/header-img.png" />
                         </div>
                         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">এক নজরে আমাদের <span>রিয়েক্ট এন্ড ওয়ার্ডপ্রেস</span> কোর্স</h2>
-                        <p className="text-white sm:text-xl">এই কোর্সে যা যা থাকছে</p>
+                        <p className="text-gray-500 sm:text-xl">এই কোর্সে যা যা থাকছে</p>
                     </div>
                     <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 md:space-y-0">
                         <div className="bg-block">

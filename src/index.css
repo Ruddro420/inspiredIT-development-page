@@ -244,6 +244,26 @@ scrollbar-thumb:hover {
   border-color: rgb(229 231 235 / var(--tw-divide-opacity));
   background: transparent;
 }
+/* Mentor Section */
+.bg-section-mentor{
+  background: #182133;
+}
+.mentor-block{
+  background: #0E1628;
+  border: none!important;
+}
+.mentor-one{
+  margin: auto;
+}
+/* Support */
+.support-img img{
+  width: 450px;
+  margin-left: auto;
+}
+/* Project Details */
+.bg-section-project{
+  background: #0E1628;
+}
 
 
 /* Nav Section */
