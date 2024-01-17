@@ -22,9 +22,10 @@ html {
   padding: 0px !important;
   margin: 0rem !important;
   max-width: 100% !important;
-  --primary: #12c2e9;
+  --primary: #2B74B9;
   --seconday: #c471ed;
   --ancent: #08A7EC;
+  --button: #2B74B9;
 }
 
 /* Basic Fixing */
@@ -57,11 +58,11 @@ span {
 }
 
 .course-button:hover {
-  background: var(--primary);
+  background: var(--seconday);
   color: rgb(0, 0, 0);
 }
 .course-button{
-  background: var(--seconday);
+  background: var(--button);
   color: rgb(0, 0, 0);
 }
 
@@ -79,7 +80,7 @@ b:first-child {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background-color: #3498db;
+  background-color: #2B74B9;
   /* Set the color of the scrollbar handle */
   border-radius: 6px;
   /* Set the border radius of the scrollbar handle */
@@ -87,7 +88,7 @@ b:first-child {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #2980b9;
+  background-color: #2B74B9;
   /* Set the color of the scrollbar handle on hover */
 }
 
@@ -99,7 +100,7 @@ scrollbar {
 
 /* Handle */
 scrollbar-thumb {
-  background-color: #3498db;
+  background-color: #2B74B9;
   /* Set the color of the scrollbar handle */
   border-radius: 6px;
   /* Set the border radius of the scrollbar handle */
@@ -107,7 +108,7 @@ scrollbar-thumb {
 
 /* Handle on hover */
 scrollbar-thumb:hover {
-  background-color: #2980b9;
+  background-color: #2B74B9;
   /* Set the color of the scrollbar handle on hover */
 }
 
@@ -342,7 +343,7 @@ scrollbar-thumb:hover {
   border-top: 3px solid var(--seconday);
 }
 .course-enroll-button{
-  background: #059dff;
+  background: #2B74B9;
 }
 
 
