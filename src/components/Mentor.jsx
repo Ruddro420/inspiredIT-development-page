@@ -71,7 +71,7 @@ const Mentor = () => {
                                         width="96"
                                     />
                                     <h5 className="mb-1 text-xl font-medium text-[#12c2e9]">Mohiuddin Fahad</h5>
-                                    <h6 className="text-sm text-white">CEO & Founder, Inspired IT </h6>
+                                    <h6 className="text-sm text-white">Founder, Inspired IT </h6>
                                     <p className='text-gray-500 mt-5 text-justify'>সৈয়দ মুহীউদ্দীন ফাহাদ , গত  বছর ৮ বছর যাবত ফাইভার, আপওয়ার্ক সহ বিভিন্ন লোকাল মার্কেটপ্লেসে কাজ করছেন । এছাড়াও  ২০১৮ সালে তিনি প্রতিষ্ঠা করেন ইন্সপায়ার্ড আইটি যেটি বাংলাদেশের বেকারত্ব সমস্যা সমাধানে সুনির্দিষ্ট ও সুনির্ধারিত কোর্স মডিউল অনুসরন করে বিভিন্ন সেক্টরে মানুষকে দক্ষ করে তোলার পাশাপাশি তাদের কাজের সুযোগ তৈরী করে দিতে বিভিন্ন ভাবে কাজ করে যাচ্ছে। </p>
                                     <div className="mt-4 flex space-x-3 lg:mt-6">
                                         <a
