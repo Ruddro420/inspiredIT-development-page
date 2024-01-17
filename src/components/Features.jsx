@@ -16,7 +16,7 @@ const Features = () => {
                             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                                 <img src="/img/features/learning.png" />
                             </div>
-                            <h3 className="mb-2 text-xl font-bold dark:text-white">১৭ সপ্তাহে ১2 টি মডিউল </h3>
+                            <h3 className="mb-2 text-xl font-bold dark:text-white">১৭ সপ্তাহে ১০ টি মডিউল </h3>
                             <p className="text-gray-500 dark:text-gray-400">ধাপে ধাপে শেখার জন্য কোর্সটি ১৭ সপ্তাহে  ১২টি মডিউল  ভাগ করে সাজানো হয়েছে এবং ডকুমেন্টেশন ধরে ধরে শিখানো হবে । </p>
                         </div>
                         <div className="bg-block">

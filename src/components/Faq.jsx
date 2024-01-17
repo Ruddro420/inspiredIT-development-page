@@ -21,193 +21,60 @@ const Faq = () => {
                         <div className="">
                             <Accordion collapseAll>
                                 <Accordion.Panel>
-                                    <Accordion.Title className="text-white">কোর্সটি করার জন্য আগে থেকে কি কি জানতে হবে?</Accordion.Title>
+                                    <Accordion.Title className="text-white">এই কোর্স টি কাদের জন্য ?</Accordion.Title>
                                     <Accordion.Content>
                                         <p className="mb-2 text-gray-500 ">
-                                            Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons,
-                                            dropdowns, modals, navbars, and more.
-                                        </p>
-                                        <p className="text-gray-500">
-                                            Check out this guide to learn how to&nbsp;
-                                            <a
-                                                href="https://flowbite.com/docs/getting-started/introduction/"
-                                                className="text-cyan-600 hover:underline dark:text-cyan-500"
-                                            >
-                                                get started&nbsp;
-                                            </a>
-                                            and start developing websites even faster with components on top of Tailwind CSS.
+                                        যারা ফ্রন্ট এন্ড ওয়েব এন্ড ওয়ার্ডপ্রেস ডেভেলপার হতে চায়। যারা একদম শূন্য থেকে শুরু করে শেষ পর্যন্ত ফ্রন্ট এন্ড ওয়েব ডেভেলপমেন্ট শিখে ফ্রন্টএন্ড ডেভেলপার হিসেবে কোন ওয়েব অথবা সফটওয়্যার কোম্পানিতে চাকরি করতে চায়, তাদের জন্য।  এছাড়াও  ফ্রিল্যান্স মার্কেটপ্লেসেও ফ্রন্ট এন্ড ওয়েব ডেভেলপার এবং ওয়ার্ডপ্রেস এর যথেষ্ট চাহিদা রয়েছে। শুধু ওয়ার্ডপ্রেসকে কাজে লাগিয়েও ফ্রিল্যান্স মার্কেটপ্লেসে কাজের যথেষ্ট সুযোগ রয়েছে । 
                                         </p>
                                     </Accordion.Content>
                                 </Accordion.Panel>
                                 <Accordion.Panel>
-                                    <Accordion.Title className="text-white"> কোর্সের প্রথম ক্লাস কবে থেকে শুরু হবে?</Accordion.Title>
+                                    <Accordion.Title className="text-white"> এই কোর্স করার আগে এ আমার কি কোনো পূর্বের অভিজ্ঞতা প্রয়োজন আছে ?</Accordion.Title>
                                     <Accordion.Content>
                                         <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                            Flowbite is first conceptualized and designed using the Figma software so everything you see in the library
-                                            has a design equivalent in our Figma file.
-                                        </p>
-                                        <p className="text-gray-500 dark:text-gray-400">
-                                            Check out the
-                                            <a href="https://flowbite.com/figma/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                                                Figma design system
-                                            </a>
-                                            based on the utility classes from Tailwind CSS and components from Flowbite.
+                                        আমাদের সকল কোর্স এর মতো এই কোর্সটিও একদম বিগেনারদের জন্য। অর্থাৎ পূর্বের কোনো অভিজ্ঞতা ছাড়াই যে কেও কোর্সটি করতে পারবে। এছাড়াও আমাদের সাপোর্ট টিম তো থাকছেই।
                                         </p>
                                     </Accordion.Content>
                                 </Accordion.Panel>
                                 <Accordion.Panel>
-                                    <Accordion.Title className="text-white">কোর্সের প্রথম ক্লাস কবে থেকে শুরু হবে?</Accordion.Title>
+                                    <Accordion.Title className="text-white">এই কোর্স শেষ করতে কত দিন সময় লাগবে ?</Accordion.Title>
                                     <Accordion.Content>
                                         <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                            The main difference is that the core components from Flowbite are open source under the MIT license, whereas
-                                            Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone
-                                            components, whereas Tailwind UI offers sections of pages.
+                                        কোর্স এর টেকনিকাল পার্ট শেষ করতে ৪ মাস সময় লাগবে। তারপর ২ মাস ইন্টার্ন করানো হবে এবং ফ্রিল্যান্স মার্কেটপ্লেস ও লোকাল জব এর জন্য রেডি করা হবে। টোটাল ৬ মাস সময় লাগবে কোর্সটি শেষ হতে।
                                         </p>
-                                        <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                            However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no
-                                            technical reason stopping you from using the best of two worlds.
-                                        </p>
-                                        <p className="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-                                        <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
-                                            <li>
-                                                <a href="https://flowbite.com/pro/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                                                    Flowbite Pro
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href="https://tailwindui.com/"
-                                                    rel="nofollow"
-                                                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                                                >
-                                                    Tailwind UI
-                                                </a>
-                                            </li>
-                                        </ul>
+                                        
                                     </Accordion.Content>
                                 </Accordion.Panel>
                                 <Accordion.Panel>
-                                    <Accordion.Title className="text-white">কোর্সের প্রথম ক্লাস কবে থেকে শুরু হবে?</Accordion.Title>
+                                    <Accordion.Title className="text-white">কোর্স টি করতে আমার শিক্ষাগত ব্যাকগ্রাউন্ড কি থাকা লাগবে ?</Accordion.Title>
                                     <Accordion.Content>
                                         <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                            The main difference is that the core components from Flowbite are open source under the MIT license, whereas
-                                            Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone
-                                            components, whereas Tailwind UI offers sections of pages.
+                                        কোর্সটি করার জন্য আগে থেকে প্রোগ্রামিং জানা থাকা লাগবে না। যে কেও কোর্সটি করতে পারবে। তবে এই কোর্সটি সঠিক ভাবে শেষ করার জন্য প্রতিদিন অন্তত ৩-৫ ঘন্টা সময় দিতে হবে।
                                         </p>
-                                        <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                            However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no
-                                            technical reason stopping you from using the best of two worlds.
-                                        </p>
-                                        <p className="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-                                        <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
-                                            <li>
-                                                <a href="https://flowbite.com/pro/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                                                    Flowbite Pro
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href="https://tailwindui.com/"
-                                                    rel="nofollow"
-                                                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                                                >
-                                                    Tailwind UI
-                                                </a>
-                                            </li>
-                                        </ul>
                                     </Accordion.Content>
                                 </Accordion.Panel>
                                 <Accordion.Panel>
-                                    <Accordion.Title className="text-white">কোর্সের প্রথম ক্লাস কবে থেকে শুরু হবে?</Accordion.Title>
+                                    <Accordion.Title className="text-white"> মোবাইল দিয়ে এ কোর্স টি করতে পারবো ?</Accordion.Title>
                                     <Accordion.Content>
                                         <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                            The main difference is that the core components from Flowbite are open source under the MIT license, whereas
-                                            Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone
-                                            components, whereas Tailwind UI offers sections of pages.
+                                        অন্তত পক্ষে কোর i3 অথবা i5 এর একটি ডেস্কটপ অথবা ল্যাপটপ লাগবে। মোবাইল দিয়ে কখনোই কোডিং শিখা সম্ভব নয়।
                                         </p>
-                                        <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                            However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no
-                                            technical reason stopping you from using the best of two worlds.
-                                        </p>
-                                        <p className="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-                                        <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
-                                            <li>
-                                                <a href="https://flowbite.com/pro/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                                                    Flowbite Pro
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href="https://tailwindui.com/"
-                                                    rel="nofollow"
-                                                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                                                >
-                                                    Tailwind UI
-                                                </a>
-                                            </li>
-                                        </ul>
                                     </Accordion.Content>
                                 </Accordion.Panel>
                                 <Accordion.Panel>
-                                    <Accordion.Title className="text-white">কোর্সের প্রথম ক্লাস কবে থেকে শুরু হবে?</Accordion.Title>
+                                    <Accordion.Title className="text-white">কোর্স করার পর কি আমি সিউর চাকরি পাবো অথবা ফ্রীল্যানসিং করতে পারবো ?</Accordion.Title>
                                     <Accordion.Content>
                                         <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                            The main difference is that the core components from Flowbite are open source under the MIT license, whereas
-                                            Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone
-                                            components, whereas Tailwind UI offers sections of pages.
+                                        কোনো কোর্স-ই আপনাকে গ্যারান্টি দিতে পারবে না আপনি কোর্স করার পর ই চাকুরী পাবেন অথবা ফ্রিল্যান্স মার্কেটপ্লেস এ ভালো করতে পারবেন। এটা সম্পূর্ণ আপনার উপর নির্ভর করবে। আমরা আপনাকে গাইড এবং সাহায্য করতে পারি , কষ্ট আপনাকেই করতে হবে ।
                                         </p>
-                                        <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                            However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no
-                                            technical reason stopping you from using the best of two worlds.
-                                        </p>
-                                        <p className="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-                                        <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
-                                            <li>
-                                                <a href="https://flowbite.com/pro/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                                                    Flowbite Pro
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href="https://tailwindui.com/"
-                                                    rel="nofollow"
-                                                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                                                >
-                                                    Tailwind UI
-                                                </a>
-                                            </li>
-                                        </ul>
                                     </Accordion.Content>
                                 </Accordion.Panel>
                                 <Accordion.Panel>
-                                    <Accordion.Title className="text-white">What are the differences between Flowbite and Tailwind UI?</Accordion.Title>
+                                    <Accordion.Title className="text-white">আমার প্রশ্নের উত্তর এখানে নেই। কোথায় প্রশ্ন করবো?</Accordion.Title>
                                     <Accordion.Content>
                                         <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                            The main difference is that the core components from Flowbite are open source under the MIT license, whereas
-                                            Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone
-                                            components, whereas Tailwind UI offers sections of pages.
+                                        আপনি চাইলে আপনার প্রশ্নটি বিস্তারিত লিখে এবং প্রয়োজনীয় রেফারেন্স যুক্ত করে আমাদের <a style={{color:'#12C2E9'}} href="https://www.facebook.com/inspireditfamily">ফেসবুক পেজে</a> ইনবক্স করতে পারেন। এছাড়াও আপনার জন্য আমাদের সাপোর্ট সেন্টার এর নাম্বার <a style={{color:'#12C2E9'}} href="tel:01738240668">+8801738240668</a> সকাল 10:00 টা থেকে রাত 08:00 টা পর্যন্ত খোলা থাকবে। এছাড়াও আমাদের অফিস <span><b>চারতলা মোড় , কলেজ রোড, রংপুর</b></span> এসে যোগাযোগ করতে পারবেন । 
                                         </p>
-                                        <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                            However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no
-                                            technical reason stopping you from using the best of two worlds.
-                                        </p>
-                                        <p className="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-                                        <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
-                                            <li>
-                                                <a href="https://flowbite.com/pro/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                                                    Flowbite Pro
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href="https://tailwindui.com/"
-                                                    rel="nofollow"
-                                                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                                                >
-                                                    Tailwind UI
-                                                </a>
-                                            </li>
-                                        </ul>
                                     </Accordion.Content>
                                 </Accordion.Panel>
                             </Accordion>

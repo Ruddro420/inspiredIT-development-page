@@ -10,7 +10,7 @@ const Support = () => {
                             <p className="text-gray-500 sm:text-xl">এই কোর্সের জন্য আমরা একটি প্রাইভেট টেলিগ্রাম সাপোর্ট গ্রুপ তৈরী করেছি যেখানে কোর্স ইন্সট্রাক্টর আলী ফিয়ার রুদ্র এবং মুহীউদ্দীন ফাহাদ সরাসরি আপনাদের বিভিন্ন প্রশ্নের উত্তর দিবেন। আমরা অঙ্গীকার করছি সর্বোচ্চ ২৪ ঘণ্টার মধ্যে আপনাদের প্রশ্নের উত্তর দিতে পারবো। তবে অধিকাংশ ক্ষেত্রে তার চেয়েও কম সময়ে আপনারা উত্তর পেয়ে যাবেন। এছাড়া প্রতি সপ্তাহে আলোচিত মডিউলের উপর লাইভ সেশন থাকবে যেখানে আপনারা সরাসরি প্রশ্ন করে উত্তর পেতে পারবেন।</p>
                         </div>
                         <div className="mt-10">
-                            <a style={{ padding: '10px', borderRadius: '5px', fontSize: '20px', color: 'white', cursor: 'pointer' }} target="_blank" href="#" className="course-button gradient-border" rel="noreferrer">
+                            <a style={{ padding: '10px', borderRadius: '5px', fontSize: '20px', color: 'white', cursor: 'pointer' }} target="_blank" href="tel:01738240668" className="course-button gradient-border" rel="noreferrer">
                                 সাপোর্ট সেন্টারে কল করুন
                             </a>
                         </div>
