@@ -63,9 +63,9 @@ const Language = () => {
                             </Card>
                         </div>
                         <div className="language-block">
-                            <Card className="language-img" imgSrc="/public/img/hero/github.png" horizontal>
+                            <Card className="language-img" imgSrc="/img/hero/github.png" horizontal>
                                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 mbl-heading">
-                                    GITHUB
+                                GITHUB
                                 </h5>
                             </Card>
                         </div>
