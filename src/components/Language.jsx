@@ -1,6 +1,16 @@
 import { Card } from "flowbite-react";
 
 const Language = () => {
+    const languages = [
+        { id: 1, name: 'HTML', imgSrc: '/img/hero/html.png' },
+        { id: 2, name: 'CSS', imgSrc: '/img/hero/css.png' },
+        { id: 3, name: 'SASS', imgSrc: '/img/hero/sass.png' },
+        { id: 4, name: 'BOOTSTRAP', imgSrc: '/img/hero/bootstrap.png' },
+        { id: 5, name: 'JAVASCRIPT', imgSrc: '/img/hero/js.png' },
+        { id: 6, name: 'REACT', imgSrc: '/img/hero/react.png' },
+        { id: 6, name: 'WORDPRESS', imgSrc: '/img/hero/wordpress.png' },
+        { id: 6, name: 'GITHUB', imgSrc: '/img/hero/github.png' },
+    ]
     return (
         <div>
             <section id="course-technology" className="bg-section-language">
@@ -13,62 +23,17 @@ const Language = () => {
                         <p className="text-gray-500 sm:text-xl">এই কোর্সের ল্যাংগুয়েজ</p>
                     </div>
                     <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-8 md:space-y-0">
-                        <div className="language-block">
-                            <Card className="language-img" imgSrc="/img/hero/html.png" horizontal>
-                                <h5 className="text-2xl font-bold tracking-tight text-gray-900 mbl-heading">
-                                    HTML
-                                </h5>
-                            </Card>
-                        </div>
-                        <div className="language-block">
-                            <Card className="language-img" imgSrc="/img/hero/css.png" horizontal>
-                                <h5 className="text-2xl font-bold tracking-tight text-gray-900 mbl-heading">
-                                    CSS
-                                </h5>
-                            </Card>
-                        </div>
-                        <div className="language-block">
-                            <Card className="language-img" imgSrc="/img/hero/sass.png" horizontal>
-                                <h5 className="text-2xl font-bold tracking-tight text-gray-900 mbl-heading">
-                                    SASS
-                                </h5>
-                            </Card>
-                        </div>
-                        <div className="language-block">
-                            <Card className="language-img" imgSrc="/img/hero/bootstrap.png" horizontal>
-                                <h5 className="text-2xl font-bold tracking-tight text-gray-900 mbl-heading">
-                                    BOOTSTRAP
-                                </h5>
-                            </Card>
-                        </div>
-                        <div className="language-block">
-                            <Card className="language-img" imgSrc="/img/hero/js.png" horizontal>
-                                <h5 className="text-2xl font-bold tracking-tight text-gray-900 mbl-heading">
-                                    JAVASCRIPT
-                                </h5>
-                            </Card>
-                        </div>
-                        <div className="language-block">
-                            <Card className="language-img" imgSrc="/img/hero/react.png" horizontal>
-                                <h5 className="text-2xl font-bold tracking-tight text-gray-900 mbl-heading">
-                                    REACT
-                                </h5>
-                            </Card>
-                        </div>
-                        <div className="language-block">
-                            <Card className="language-img" imgSrc="/img/hero/wordpress.png" horizontal>
-                                <h5 className="text-2xl font-bold tracking-tight text-gray-900 mbl-heading">
-                                    WORDPRESS
-                                </h5>
-                            </Card>
-                        </div>
-                        <div className="language-block">
-                            <Card className="language-img" imgSrc="/img/hero/github.png" horizontal>
-                                <h5 className="text-2xl font-bold tracking-tight text-gray-900 mbl-heading">
-                                GITHUB
-                                </h5>
-                            </Card>
-                        </div>
+                        {
+                            languages.map(language => (
+                                <div key={language.id} className="language-block">
+                                    <Card className="language-img" imgSrc={language.imgSrc} horizontal>
+                                        <h5 className="text-2xl font-bold tracking-tight text-gray-900 mbl-heading">
+                                            {language.name}
+                                        </h5>
+                                    </Card>
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
             </section>
